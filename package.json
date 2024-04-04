@@ -1,5 +1,5 @@
 {
-  "name": "arc-email",
+  "name": "arc-mail-sender",
   "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/boom": "^10.0.1",
     "dotenv": "^16.4.5",
     "nodemailer": "^6.9.13"
   }
