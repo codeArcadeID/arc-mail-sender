@@ -5,123 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c5ccf73-7d9d-4a15-b4a8-65b8ecec13ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/boom/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/boom/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/boom/lib/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/boom/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/boom/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/applyToDefaults.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/applyToDefaults.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/assert.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/assert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/assertError.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/assertError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/bench.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/bench.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/block.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/block.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/clone.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/clone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/contain.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/contain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/deepEqual.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/deepEqual.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/escapeHeaderAttribute.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/escapeHeaderAttribute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/escapeHtml.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/escapeHtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/escapeJson.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/escapeJson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/escapeRegex.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/escapeRegex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/flatten.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/flatten.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/ignore.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/ignore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/index.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/intersect.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/intersect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/isPromise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/isPromise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/merge.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/merge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/once.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/once.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/reach.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/reach.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/reachTemplate.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/reachTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/stringify.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/stringify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/wait.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/wait.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/dotenv/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/dotenv/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/dotenv/README-es.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/dotenv/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/dotenv/config.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/dotenv/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/dotenv/lib/cli-options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/dotenv/lib/env-options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/dotenv/lib/main.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/dotenv/lib/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/dotenv/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/.ncurc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/SECURITY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/addressparser/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/base64/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/message-parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/relaxed-body.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/sign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/fetch/cookies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/fetch/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/json-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mail-composer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/mail-message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-funcs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-funcs/mime-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/last-newline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/le-unix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/le-windows.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/nodemailer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/punycode/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/qp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/ses-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/shared/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/data-stream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-pool/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-pool/pool-resource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/stream-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/well-known/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/well-known/services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/xoauth2/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,32 +28,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2eaaWnjr65HIwJGbD5hfkPT92Ju" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "20.11.0",
-    "javascript.nodejs.core.library.typings.version": "20.11.30",
-    "last_opened_file_path": "/Users/codes/RnD/arc-email",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.30&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/codes/RnD/arc-email&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
