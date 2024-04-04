@@ -1,1 +1,1 @@
-# arc-email
+# arc-mail-sender
