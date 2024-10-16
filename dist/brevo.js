@@ -23,9 +23,10 @@ class BrevoSender {
     }
     send(_a) {
         return __awaiter(this, arguments, void 0, function* ({ from, to, subject, text }) {
+            const recipients = Array.isArray(to) ? to.join(', ') : to;
             const mailOptions = {
                 from: from || process.env.SMTP_FROM,
-                to,
+                to: recipients,
                 subject,
                 text,
             };

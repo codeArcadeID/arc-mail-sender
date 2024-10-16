@@ -2,7 +2,7 @@ import { createTransport } from 'nodemailer';
 
 interface EmailOptions {
     from?: string;
-    to: string;
+    to: string | string[];
     subject: string;
     text: string;
 }
@@ -22,9 +22,11 @@ export default class BrevoSender {
     }
 
     async send({ from, to, subject, text }: EmailOptions) {
+        const recipients = Array.isArray(to) ? to.join(', ') : to;
+
         const mailOptions = {
             from: from || process.env.SMTP_FROM as string,
-            to,
+            to: recipients,
             subject,
             text,
         };

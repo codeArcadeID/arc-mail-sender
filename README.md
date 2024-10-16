@@ -89,8 +89,7 @@ exports.sendEmail = async ({ from, to, subject, text }) => {
 
     await sendEmail.send({
         from: from || process.env.SMTP_FROM,
-        to,
-        subject,
+        to: ['kevin@domain.com', 'archie@domain.com'],        subject,
         text,
     });
 };

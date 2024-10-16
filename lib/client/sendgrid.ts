@@ -2,7 +2,7 @@ import sgMail from '@sendgrid/mail';
 
 interface EmailOptions {
     from?: string;
-    to: string;
+    to: string | string[];
     subject: string;
     text: string;
 }
