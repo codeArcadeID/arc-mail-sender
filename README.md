@@ -37,7 +37,7 @@ Currently, Arc Mail Sender supports:
 ## 📦 Installation
 
 ```bash
-npm install --save arc-mail-sender
+npm i github:codeArcadeID/arc-mail-sender#v1.0.0
 ```
 
 ## 🪄 Usage
