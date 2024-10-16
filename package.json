@@ -1,11 +1,12 @@
 {
   "name": "arc-mail-sender",
   "version": "1.0.0",
-  "description": "",
-  "main": "./lib/index.js",
+  "description": "A library to send emails using Brevo and SendGrid for Node.js projects.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "mocha './lib/client/test/*.test.js'",
-    "start": "node src/app.js"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "author": "kevin-archie",
   "license": "ISC",
@@ -16,12 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kevin-archie/arc-mail-sender"
+    "url": "https://github.com/codeArcadeID/arc-mail-sender"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",
     "chai": "^4.4.1",
     "mocha": "^10.4.0",
-    "sinon": "^17.0.1"
+    "sinon": "^17.0.1",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/nodemailer": "^6.4.7"
   }
 }

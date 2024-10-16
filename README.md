@@ -37,44 +37,66 @@ Currently, Arc Mail Sender supports:
 ## 📦 Installation
 
 ```bash
-npm i github:codeArcadeID/arc-mail-sender#v1.0.0
+npm i github:codeArcadeID/arc-mail-sender
 ```
+
+This command will always install the latest version from the main branch.
 
 ## 🪄 Usage
 
-### Sending Email via Brevo
+### Using Arc Mail Sender in **Next.js** API Routes
+
+You can use Arc Mail Sender in your **Next.js** API routes to handle server-side email sending.
+
+#### Example API Route (`pages/api/send-email.js`):
+
 ```javascript
-require('dotenv').config();
-const { brevoSender } = require("arc-mail-sender");
+import { brevoSender } from 'arc-mail-sender';
 
-const sendEmail = new brevoSender();
+export default async function handler(req, res) {
+  if (req.method === 'POST') {
+    const { from, to, subject, text } = req.body;
 
-async function sendRegistrationEmail() {
-  await sendEmail.send({
-    from: 'noreply@yourdomain.com',
-    to: 'recipient@domain.com',
-    subject: 'Welcome to Arc Mail Sender',
-    text: 'This is a sample email...'
-  });
+    const sendEmail = await brevoSender();
+    await sendEmail.send({
+      from: from || process.env.SMTP_FROM,
+      to,
+      subject,
+      text,
+    });
+
+    return res.status(200).json({ message: 'Email sent successfully!' });
+  }
+
+  res.status(405).json({ message: 'Method Not Allowed' });
 }
 ```
 
-### Sending Email via SendGrid
+### Using Arc Mail Sender in **Express.js**
+
+In **Express.js**, you can integrate Arc Mail Sender in your service layer to handle email sending logic, separating the concerns between your routes and business logic.
+
+#### Description:
+The recommended approach is to place the email-sending logic inside a **service file** to keep your route file clean and more maintainable. Here’s an example of how to set this up.
+
+#### Example Service (`services/emailService.js`):
+
 ```javascript
-require('dotenv').config();
-const { sendgridSender } = require("arc-mail-sender");
+const { brevoSender } = require('arc-mail-sender');
 
-const sendEmail = new sendgridSender();
+exports.sendEmail = async ({ from, to, subject, text }) => {
+    const sendEmail = await brevoSender();
 
-async function sendRegistrationEmail() {
-  await sendEmail.send({
-    from: 'noreply@yourdomain.com',
-    to: 'recipient@domain.com',
-    subject: 'Welcome to Arc Mail Sender',
-    text: 'This is a sample email...'
-  });
-}
+    await sendEmail.send({
+        from: from || process.env.SMTP_FROM,
+        to,
+        subject,
+        text,
+    });
+};
 ```
+
+For **SendGrid**, replace `brevoSender` with `sendgridSender` in the service file and adjust the API key configuration accordingly.
 
 ## 📂 Project Structure
 
@@ -82,8 +104,8 @@ async function sendRegistrationEmail() {
 .
 ├── lib
 │   ├── client
-│   │   ├── brevo.js
-│   │   ├── sendgrid.js
+│   │   ├── brevo.ts
+│   │   ├── sendgrid.ts
 │   │   └── test
 │   │       └── brevo.test.js
 ├── package.json
