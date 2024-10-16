@@ -1,6 +1,6 @@
 {
   "name": "arc-mail-sender",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A library to send emails using Brevo and SendGrid for Node.js projects.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
